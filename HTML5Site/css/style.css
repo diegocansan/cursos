@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
-    display: flex;
-    justify-content: center;
+    padding: 0;
+    border: 0;
     min-height: 100%;
     width: -webkit-fill-available;
     height: -webkit-fill-available;
@@ -85,4 +85,21 @@ table, th, td {
 td {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    max-width: min-content;
+}
+.fone, .endereco{
+    display: flex;
+    flex-flow: column;
+    align-items: center;  
+}
+h3,h4,h5,h6{
+    margin: 0;
+    padding: 0.25rem;
 }
