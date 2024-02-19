@@ -1,2 +1,2 @@
 # cursos
-repositório para estudos
+repositório para estudos e projetos
